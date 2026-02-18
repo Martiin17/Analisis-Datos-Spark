@@ -2,7 +2,7 @@
 
 Se utilizará Apache Spark para ejemplificar cómo realizar un procesamiento distribuido de datos, así como los desafíos que implica pensar en un análisis distribuido.
 
-Explicación de las consultas 1 a 6 (el resto estan en el informe):
+Explicación de las consultas:
 
 1) Cuál es el estado que más descuentos tiene en total? y en promedio? Supongan que de una direccion del estilo: 3123 Alan Extension Port Andrea, MA 26926, “MA” es el estado.
 
@@ -15,3 +15,7 @@ Explicación de las consultas 1 a 6 (el resto estan en el informe):
 5) Calculen el porcentaje de productos cuyo stock es al menos 20% más alto que el stock promedio de su marca. Por ejemplo, si el stock promedio de la marca Adidas fuera 100, para los productos de dicha marca la condición será que tengan un stock mayor a 120, y luego se deberá calcular qué porcentaje del total de productos cumple con esta condición.
 
 6) Obtener la cantidad de órdenes que no hayan comprado ninguno de los 10 productos más vendidos.
+
+7) Obtener los 10 países con mayor cantidad de usuarios inactivos en promedio.
+
+8) Obtener los 2 nombres con mayor cantidad de helpful_votes dentro de los 10 países con mayor cantidad de usuarios inactivo en promedio
